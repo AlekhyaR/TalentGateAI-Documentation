@@ -112,9 +112,9 @@ Graph Diagram (Mermaid exported to PNG):
 ---
 
 ## 📌 Roadmap
-*  Enhance rejection workflow
-  * [ ] Refine automated rejection emails (tone, templates, personalization).
-  * [ ] Integrate calendar scheduling for interviews and recruiter coordination.
+
+* [ ] Refine automated rejection emails (tone, templates, personalization).
+* [ ] Integrate calendar scheduling for interviews and recruiter coordination.
 * [ ] Refinement in Sending Rejection Emails and calendar integration
 * [ ] Add database integration (candidate profiles)
 * [ ] Add support for multiple job descriptions
