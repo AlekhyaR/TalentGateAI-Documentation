@@ -1,13 +1,14 @@
-# TalentGate 🧑‍💼🤖  
-An **AI-powered recruitment screening pipeline** built with [LangGraph](https://python.langchain.com/docs/langgraph/), [LangChain](https://www.langchain.com/), and [Groq LLMs](https://groq.com/).  
 
-This project automates the initial screening of resumes (PDF or text), categorizes candidate experience level, assesses skills against a given job role, and routes candidates to the correct next step:
-- ✅ Schedule HR Interview (if skills match) 
-- 📈 Escalate to Recruiter (if overqualified) 
-- ❌ Send Rejection Email (if not a fit)
+# TalentGateAI Documentation
+
+🚀 **TalentGateAI** is an AI-powered recruitment workflow engine designed to streamline candidate screening and recruiter decision-making.
+This repository serves as a **documentation hub** (not the source code) to explain project goals, architecture, and workflows, since the main codebase is kept private.
 
 ---
 
+## 🔍 What TalentGateAI Does
+
+TalentGateAI automates the **initial candidate screening process** by:
 ## 🚀 Features
 - Accepts **PDF resumes** or raw text.
 - Dynamically **categorizes experience** (`Entry-level`, `Mid-level`, `Senior-level`).
@@ -98,16 +99,6 @@ Response: Candidate has senior-level experience but doesn't match job skills.
 
 Graph Diagram (Mermaid exported to PNG):
 ![Graph Workflow](docs/talentgate_graph.png)
-
----
-
-## 🛠 Tech Stack
-
-* [LangGraph](https://python.langchain.com/docs/langgraph/) – Orchestration of nodes
-* [LangChain](https://www.langchain.com/) – LLM pipelines
-* [Groq LLMs](https://groq.com/) – Fast inference
-* [Python-dotenv](https://pypi.org/project/python-dotenv/) – Environment variables
-* [PyPDF2 / pdfminer](https://pypi.org/project/pdfminer.six/) – PDF parsing
 
 ---
 
