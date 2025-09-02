@@ -54,7 +54,7 @@ talentgate/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/talentgate.git
+git clone https://github.com/AlekhyaR/talentgate.git
 cd talentgate
 
 more details found at : https://github.com/AlekhyaR/TalentGateAI
@@ -97,7 +97,7 @@ Response: Candidate has senior-level experience but doesn't match job skills.
 ```
 
 Graph Diagram (Mermaid exported to PNG):
-![Graph Workflow](talentgate_graph.png)
+![Graph Workflow](docs/talentgate_graph.png)
 
 ---
 
@@ -112,9 +112,9 @@ Graph Diagram (Mermaid exported to PNG):
 ---
 
 ## 📌 Roadmap
-* [ ] Enhance rejection workflow
- * [ ] Refine automated rejection emails (tone, templates, personalization).
- * [ ] Integrate calendar scheduling for interviews and recruiter coordination.
+* -  Enhance rejection workflow
+  * [ ] Refine automated rejection emails (tone, templates, personalization).
+  * [ ] Integrate calendar scheduling for interviews and recruiter coordination.
 * [ ] Refinement in Sending Rejection Emails and calendar integration
 * [ ] Add database integration (candidate profiles)
 * [ ] Add support for multiple job descriptions
